@@ -21,7 +21,7 @@ class SearchBar extends React.Component {
       <div className="SearchBar">
         <div className="SearchBar-sort-options">
           <ul>
-            <!-- Use .renderSortByOptions() to sort the businesses by their options -->
+            renderSortByOptions();
           </ul>
         </div>
         <div className="SearchBar-fields">
@@ -35,3 +35,5 @@ class SearchBar extends React.Component {
     );
   }
 };
+
+export default SearchBar;
