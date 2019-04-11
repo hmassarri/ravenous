@@ -1,9 +1,8 @@
-//Import React
 import React from 'react';
-//Import CSS
 import './Business.css';
+
 //Business object
-const Business = {
+const business = {
   imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -15,7 +14,7 @@ const Business = {
   reviewCount: 90
 }
 
-class Business extends React.Components {
+class Business extends React.Component {
   render() {
     return (
       <div className="Business">
